@@ -1,0 +1,11 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lastName {
+  background: linear-gradient(to right, #7c96ab, gray);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 8px;
+  line-height: 1;
+}

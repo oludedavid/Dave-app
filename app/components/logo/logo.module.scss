@@ -1,0 +1,18 @@
+$logo-font: "Titillium Web", sans-serif;
+$secondary-color: #f875aa;
+$primary-color: #ffffff;
+$subLogo-gradient: linear-gradient(to right, $secondary-color, $primary-color);
+.logo {
+  color: $secondary-color;
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 40px;
+  .sub_logo {
+    font-weight: 300;
+    background: $subLogo-gradient;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 28px;
+  }
+}

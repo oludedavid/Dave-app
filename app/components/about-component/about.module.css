@@ -1,0 +1,15 @@
+.quote {
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+.emphasis {
+  font-weight: 800;
+  font-size: 50px;
+  background: linear-gradient(to right, #7c96ab, gray);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 8px;
+  line-height: 1;
+}

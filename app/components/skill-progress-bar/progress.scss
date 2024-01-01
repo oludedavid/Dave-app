@@ -1,0 +1,101 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Titillium Web", sans-serif;
+  padding-top: 20px;
+}
+.skillType {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.container {
+  width: 100%;
+  height: 8px;
+  background-color: #ddd;
+}
+.skills {
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.html {
+  width: 90%;
+  height: 100%;
+  font-size: 5px;
+  background-color: #04aa6d;
+}
+.sass {
+  width: 60%;
+  height: 100%;
+  font-size: 6px;
+  background-color: skyblue;
+}
+.css {
+  width: 80%;
+  height: 100%;
+  font-size: 6px;
+  background-color: #2196f3;
+}
+.javascript {
+  width: 75%;
+  height: 100%;
+  font-size: 6px;
+  background-color: #f44336;
+}
+.flask {
+  width: 60%;
+  height: 100%;
+  font-size: 6px;
+}
+
+.bootstrap {
+  width: 80%;
+  height: 100%;
+  font-size: 6px;
+  background-color: pink;
+}
+
+.nextjs {
+  width: 70%;
+  height: 100%;
+  font-size: 6px;
+  background-color: yellow;
+}
+
+.tailwindcss {
+  width: 60%;
+  height: 100%;
+  font-size: 6px;
+  background-color: #808080;
+}
+.reactjs {
+  width: 70%;
+  height: 100%;
+  font-size: 6px;
+  background-color: purple;
+}
+.typescript {
+  width: 60%;
+  height: 100%;
+  font-size: 6px;
+  background-color: red;
+}
+.wordpress {
+  width: 80%;
+  height: 100%;
+  font-size: 6px;
+  background-color: bisque;
+}
+.flask {
+  width: 60%;
+  height: 100%;
+  font-size: 6px;
+  background-color: brown;
+}
+.figma {
+  width: 70%;
+  height: 100%;
+  font-size: 6px;
+  background-color: violet;
+}
