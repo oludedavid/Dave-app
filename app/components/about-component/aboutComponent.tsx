@@ -4,11 +4,11 @@ import aboutStyles from "./about.module.css";
 export default function AboutComponent() {
   return (
     <div
-      className={`grid grid-cols-1 md:grid-cols-2 pt-14 px-3 w-screen place-items-center overflow-x-hidden`}
+      className={`grid grid-cols-1 md:grid-cols-2 pt-14 w-screen place-items-center overflow-x-hidden`}
     >
-      <div className={`pt-22`}>
+      <div className={`pt-22 flex flex-col items-center justify-center`}>
         <h1
-          className={` md:w-1/5 font-semibold text-5xl ml-10 md:ml-14  `}
+          className={` md:w-1/5 font-semibold text-5xl   `}
           style={{
             background: "linear-gradient(to right, #7C96AB, #AB7C96)",
             WebkitBackgroundClip: "text",
@@ -18,14 +18,12 @@ export default function AboutComponent() {
           About
         </h1>
 
-        <div className={`flex flex-col justify-between gap-10  `}>
-          <p className={`w-5/6  text-xl  pl-12 pt-2`}>
-            odavidolumide@gmail.com
-          </p>
+        <div className={` flex flex-col items-center justify-center gap-4`}>
+          <p className={`text-xl pt-2`}>odavidolumide@gmail.com</p>
           <p
-            className={`w-5/6 text-gray-900 my-0 mx-auto text-xl shadow-2xl p-6  leading-relaxed rounded-2xl border border-transparent`}
+            className={`${aboutStyles.pdescr} w-5/6 text-gray-900 my-0 mx-auto text-xl p-4 bg-gradient-to-b from-[#A0AEC0] to-[#D8D8D8] border-2 border-transparent hover:border-[#A0AEC0] leading-relaxed rounded-2xl`}
             style={{
-              backgroundColor: "#7C96AB",
+              backgroundColor: "#A0AEC0",
             }}
           >
             Web developer with over 4 years of experience, specializing in
@@ -39,7 +37,7 @@ export default function AboutComponent() {
             standards of functionality and aesthetics.
           </p>
           <p
-            className={`relative text-center pb-5 text-xl before:hidden after:hidden md:before:block md:after:block md:before:content-[''] md:before:absolute before:left-0 before:top-4 before:w-1/5 before:border-b-2 before:border-gray-600 after:content-[''] after:absolute after:right-0 after:top-4 after:w-1/5 after:border-b-2 after:border-gray-600`}
+            className={`relative text-center pb-5 text-xl before:hidden after:hidden md:before:block md:after:block md:before:content-[''] md:before:absolute before:-left-16 before:top-4 before:w-1/5 before:border-b-2 before:border-gray-600 after:content-[''] after:absolute after:-right-16 after:top-4 after:w-1/5 after:border-b-2 after:border-gray-600`}
           >
             North-Rhine-Wesfalia, Germany.
           </p>
@@ -47,14 +45,16 @@ export default function AboutComponent() {
       </div>
 
       {/* image */}
-      <div className={`relative w-screen md:w-2/3 md:relative pt-3`}>
+      <div
+        className={`relative w-screen md:w-2/3 md:relative pt-3 pl-1 md:pl-10`}
+      >
         <Image
           alt="david image"
           src={`/images/daa.png`}
           layout="responsive"
           width={500}
           height={333}
-          className={`rounded-lg pt-24 md:pt-0 drop-shadow-md pl-10 md:pl-2 pr-5 md:pr-2`}
+          className={`rounded-lg pt-24 md:pt-0 drop-shadow-md pl-20 md:pl-2 pr-5 pr md:pr-16`}
         />
         <div
           className={`${aboutStyles.quote} absolute top-2 pt-3  right-20  mx-auto my-0  w-2/3 text-md md:absolute md:-top-10 md:-right-16 md:w-3/5 md:my-0 md:mx-auto md:text-xl`}

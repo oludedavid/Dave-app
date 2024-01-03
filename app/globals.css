@@ -6,8 +6,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  color: gray;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
   overflow-x: hidden;
 }

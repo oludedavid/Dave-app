@@ -9,20 +9,20 @@ export default function HomeComponent() {
       <div
         className={`relative`}
         style={{
-          backgroundImage: `url("../images/pix2.jpg")`,
+          backgroundImage: `url("../images/bg.jpg")`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100vw",
-          height: "calc(100vh - 80px)",
-          boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+          height: "100dvh",
+          boxShadow: "rgba(0, 0, 0, 0.2) 0px 3px 8px",
         }}
       >
         <div
-          className={`${homeStyles.overlay} absolute top-0 left-0 z-10 w-full h-full pl-10 md:pl-32 pt-2 md:pt-28`}
+          className={`${homeStyles.overlay} absolute top-0 left-0 z-10 w-full h-full pl-10 md:pl-32 pt-0 md:pt-28`}
         >
           <div
-            className={`w-full pr-3 md:pr-0 h-full md:h-1/2 md:w-5/6 flex flex-col justify-center items-center md:items-start pt-10`}
+            className={`w-full pr-3 md:pr-0 h-full md:h-1/2 md:w-5/6 flex flex-col justify-center items-center md:items-start pt-6`}
           >
             <h1
               className={`${homeStyles.firstName} text-5xl md:text-8xl font-light`}
