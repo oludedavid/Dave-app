@@ -49,7 +49,7 @@ export default function NavigationMenu() {
 
       <div className={`w-full h-full`}>
         <ul
-          className={`h-full -translate-x-full md:translate-x-0 flex flex-col items-center justify-center md:flex-row transition-transform ease-in py-14 ${
+          className={`h-full -translate-x-full md:translate-x-0 flex flex-col flex-wrap items-center justify-center md:flex-row transition-transform ease-in py-14 ${
             isMobileNavOpened ? `translate-x-0 delay-500` : `delay-300`
           }`}
         >

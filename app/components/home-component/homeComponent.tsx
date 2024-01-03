@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HomeComponent() {
   return (
-    <div className="flex flex-col items-center justify-end pt-6">
+    <div className="flex flex-col items-center justify-end pt-7">
       <div
         className={`relative`}
         style={{
