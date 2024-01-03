@@ -17,7 +17,7 @@ const experienceData: Experience[] = [
       "Specialized in Aerostructure Inspections and Non-Destructive Testing (NDT).",
     companyUrl:
       "https://www.testia.com/?utm_source=linkedin&utm_medium=social&utm_campaign=custombutton",
-    companyRole: "Web Developer",
+    companyRole: `Web Developer- Working Student`,
     companyDuration: "March 2023 - February 2024",
     companyLocation: "Bremen, Germany",
     companyResponsibilities: [
@@ -34,7 +34,7 @@ const experienceData: Experience[] = [
     companyDescription:
       "Revolutionizes recruitment process with standardized data on grade distributions.",
     companyUrl: "candidate-select.de/",
-    companyRole: "Fullstack Developer",
+    companyRole: "Fullstack Developer- Intern",
     companyDuration: "April 2022 - October 2022",
     companyLocation: "Cologne, Germany",
     companyResponsibilities: [

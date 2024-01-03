@@ -8,7 +8,7 @@ export default function SkillProgressBar(props: {
 }) {
   return (
     <div className="wrapper">
-      <p className="skillType text-red-400">{props.skillType}</p>
+      <p className="skillType text-gray-400">{props.skillType}</p>
       <div className={`container`}>
         <div
           className={`skills ${props.skillType}`}

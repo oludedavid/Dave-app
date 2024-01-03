@@ -5,7 +5,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { TRUE } from "sass";
 
 export default function ExperienceComponent({
   experienceData,
@@ -20,16 +19,16 @@ export default function ExperienceComponent({
             key={experience.id}
             visible={true}
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#B2A59B", color: "#fff" }}
+            contentStyle={{ background: "#7C96AB", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid #7C96AB" }}
             date={experience.companyDuration}
             iconStyle={{ background: "#7C96AB", color: "#fff" }}
             icon={<MdWork />}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h4 className="vertical-timeline-element-title text-gray-300">
               {experience.companyRole}
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">{`${experience.companyName}, ${experience.companyLocation}`}</h4>
+            </h4>
+            <h5 className="vertical-timeline-element-subtitle">{`${experience.companyName}, ${experience.companyLocation}`}</h5>
             <p>{experience.companyResponsibilities.join(", ")}</p>
           </VerticalTimelineElement>
         ))}

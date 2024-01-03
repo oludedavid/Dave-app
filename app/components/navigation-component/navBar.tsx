@@ -23,7 +23,7 @@ export default function NavigationMenu() {
         isMobileNavOpened ? `h-screen` : `h-16 md:h-16`
       } md:h-28   backdrop-filter backdrop-blur-lg  bg-opacity-30 `}
     >
-      <div className={`md:hidden  px-4 py-2 flex flex-row justify-between `}>
+      <div className={`sm:hidden  px-4 py-2 flex flex-row justify-between `}>
         <h1
           className={`font-bold text-3xl`}
           style={{
@@ -49,7 +49,7 @@ export default function NavigationMenu() {
 
       <div className={`w-full h-full`}>
         <ul
-          className={`h-full -translate-x-full md:translate-x-0 flex flex-col items-center justify-center md:flex-row transition-transform ease-in py-14 ${
+          className={`h-full -translate-x-full sm:translate-x-0 flex flex-col items-center justify-center md:flex-row transition-transform ease-in py-14 ${
             isMobileNavOpened ? `translate-x-0 delay-500` : `delay-300`
           }`}
         >

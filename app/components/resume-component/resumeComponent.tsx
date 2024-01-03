@@ -249,7 +249,7 @@ function ProgressBar({
 }) {
   return (
     <div className={`flex flex-col justify-center gap-3 pt-8`}>
-      <p className="skillType uppercase text-red-300">{children}</p>
+      <p className="skillType uppercase text-gray-300">{children}</p>
       <div
         className={`container `}
         style={{
