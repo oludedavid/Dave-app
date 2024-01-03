@@ -37,12 +37,12 @@ export default function NavigationMenu() {
 
         <button
           onClick={() => setMobileNavOpened(!isMobileNavOpened)}
-          className={``}
+          className={`pr-5`}
         >
           {isMobileNavOpened ? (
-            <IoMdClose size={30} color="gray" />
+            <IoMdClose size={40} color="gray" />
           ) : (
-            <IoMdMenu size={30} color="gray" />
+            <IoMdMenu size={40} color="gray" />
           )}
         </button>
       </div>
